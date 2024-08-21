@@ -208,7 +208,7 @@
     }
   ?>
 <header class="header">
-  <h3><a href="register.php" style="color:white;">SpendWise - A Expense Management System</a></h3>
+  <h3><a href="register.php" style="color:white;">SpendWise - An Expense Management System</a></h3>
 </header>
 
 <div class="register-container">

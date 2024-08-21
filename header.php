@@ -52,10 +52,10 @@
                     <a class="nav-link <?php if(basename($_SERVER['PHP_SELF']) == 'index.php'){echo 'active';} ?>" href="index.php">Dashboard</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php if(basename($_SERVER['PHP_SELF']) == 'income.php' || basename($_SERVER['PHP_SELF']) == 'add_income.php'){echo 'active';} ?>" href="income.php">Income</a>
+                    <a class="nav-link <?php if(basename($_SERVER['PHP_SELF']) == 'income.php' || basename($_SERVER['PHP_SELF']) == 'add_income.php' || basename($_SERVER['PHP_SELF']) == 'update_income.php') {echo 'active';} ?>" href="income.php">Income</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link  <?php if(basename($_SERVER['PHP_SELF']) == 'expense.php' || basename($_SERVER['PHP_SELF']) == 'add_expense.php'){echo 'active';} ?>" href="expense.php">Expenses</a>
+                    <a class="nav-link  <?php if(basename($_SERVER['PHP_SELF']) == 'expense.php' || basename($_SERVER['PHP_SELF']) == 'add_expense.php' || basename($_SERVER['PHP_SELF']) == 'update_income.php'){echo 'active';} ?>" href="expense.php">Expenses</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link <?php if(basename($_SERVER['PHP_SELF']) == 'analytics.php'){echo 'active';} ?>" href="analytics.php">Analytics</a>
